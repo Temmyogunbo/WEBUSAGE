@@ -1,0 +1,36 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "build/**"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "promise",
+    "import"
+  ],
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "prettier",
+    "plugin:import/errors",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error"
+    ],
+    "no-undef": "off",
+    "no-shadow": "off",
+    "no-use-before-define": "off",
+    "no-underscore-dangle": "off",
+    "sort-imports": "off",
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": "off",
+    "allowComputed": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts"] }]
+
+  }
+}

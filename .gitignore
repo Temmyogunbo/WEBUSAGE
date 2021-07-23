@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.prettierignore
+.vscode/
+.eslintcache
+package-lock.json
+yarn.lock
